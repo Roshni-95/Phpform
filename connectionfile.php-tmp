@@ -1,0 +1,20 @@
+<?php
+$DSN = 'mysql:host=localhost;dbname=whatsapp';
+$connectingDB = new PDO($DSN, 'root', '');
+?>
+<!------
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="whatsapp";
+$connectingDB=new mysqli($servername,$username,$password,$dbname);
+
+if($connectingDB->connect_error)
+{
+	die("connection fail".$conn->connect_error);
+}
+
+
+
+
+-->
